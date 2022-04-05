@@ -26,4 +26,4 @@ jobs:
         MAVEN_USERNAME : ${{secrets.MAVEN_USERNAME}}
         MAVEN_PASSWORD : ${{secrets.MAVEN_PASSWORD}}
         MAVEN_URL : ${{secrets.MAVEN_URL}}
-      run: mvn tomcat7:deploy --file aws_test/pom.xml -Dmvn_project.url=$MAVEN_URL -Dmvn_project.username=$MAVEN_USERNAME -Dmvn_project.password=$MAVEN_PASSWORD
+      run: mvn tomcat7:deploy --file awstest/pom.xml -Dmvn_project.url=$MAVEN_URL -Dmvn_project.username=$MAVEN_USERNAME -Dmvn_project.password=$MAVEN_PASSWORD
