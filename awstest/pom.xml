@@ -11,6 +11,13 @@
 			<artifactId>tomcat-servlet-api</artifactId>
 			<version>9.0.62</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc6 -->
+		<dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.4</version>
+		</dependency>
+
 
 	</dependencies>
 	<build>
