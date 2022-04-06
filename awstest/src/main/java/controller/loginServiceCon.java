@@ -16,7 +16,7 @@ import model.MemberDTO;
 public class loginServiceCon extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		request.setCharacterEncoding("EUC-KR");
+		request.setCharacterEncoding("UTF-8");
 		
 		String email = request.getParameter("email");
 		String pw = request.getParameter("pw");

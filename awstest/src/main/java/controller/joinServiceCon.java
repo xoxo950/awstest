@@ -17,7 +17,7 @@ public class joinServiceCon extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		// post방식 인코딩
-		request.setCharacterEncoding("EUC-KR");
+		request.setCharacterEncoding("UTF-8");
 		
 		// email, pw, name, tel, addr
 		String email = request.getParameter("email");
